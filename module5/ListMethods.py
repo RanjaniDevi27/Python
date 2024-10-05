@@ -1,0 +1,21 @@
+list=["hello","world","python"]
+print(list.pop())#it will display the first negative index
+print(list)
+list.remove("world")
+print(list)
+list.append("programming")
+print(list)
+list.insert(0,"hi")
+print(list)
+print("".join(list))
+print(list)
+list.append("python")
+print(list)
+print(list[1:3])
+list.append("0")
+print(list)
+print(list[::-1])
+print(list[0:4:2])
+list1=[1,2]
+list2=[3,4]
+print(list1.extend(list2))
